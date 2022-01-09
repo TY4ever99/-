@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectName>clockV101</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>
+    </PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\clockV101;$(ProjectDir)..\..\..\visual studio\Common7\IDE\Extensions\gnbx0iup.to0\Micro Platforms\visualmicro\ide\libraries;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries;C:\Users\litao\Documents\Arduino\libraries;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\avr;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\libb64;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\spiffs;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\umm_malloc;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\variants\generic;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\lwip2\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\libc\xtensa-lx106-elf\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include\c++\4.8.2;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\lib\gcc\xtensa-lx106-elf\4.8.2\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.clockV101.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__ESP8266_esp8266__;__ESP8266_ESP8266__;__ets__;ICACHE_FLASH;_GNU_SOURCE;MMU_IRAM_SIZE=0x8000;MMU_ICACHE_SIZE=0x8000;NONOSDK22x_190703=1;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;LWIP_FEATURES=1;LWIP_IPV6=0;ARDUINO=10807;ARDUINO_ESP8266_GENERIC;ARDUINO_ARCH_ESP8266;LED_BUILTIN=2;FLASHMODE_DOUT;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\clockV101;C:\Users\litao\Documents\Arduino\libraries\ArduinoJson\src;C:\Users\litao\Documents\Arduino\libraries\TFT_eSPI;Y:\Arduino\libraries;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\libraries;C:\Users\litao\Documents\Arduino\libraries;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\avr;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\libb64;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\spiffs;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\cores\esp8266\umm_malloc;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\variants\nodemcu;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\lwip2\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\libc\xtensa-lx106-elf\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include\c++\4.8.2;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include\c++\4.8.2\xtensa-lx106-elf;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\xtensa-lx106-elf\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\tools\xtensa-lx106-elf-gcc\3.0.3-gcc10.3-9bcba0b\lib\gcc\xtensa-lx106-elf\4.8.2\include;C:\Users\litao\AppData\Local\arduino15\packages\esp8266\hardware\esp8266\3.0.1\tools\sdk\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ProjectDir)__vm\.clockV101.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__ESP8266_esp8266__;__ESP8266_ESP8266__;_VMDEBUG=1;__ets__;ICACHE_FLASH;_GNU_SOURCE;MMU_IRAM_SIZE=0x8000;MMU_ICACHE_SIZE=0x8000;NONOSDK22x_190703=1;F_CPU=80000000L;LWIP_OPEN_SRC;TCP_MSS=536;LWIP_FEATURES=1;LWIP_IPV6=0;ARDUINO=108013;ARDUINO_ESP8266_NODEMCU_ESP12E;ARDUINO_ARCH_ESP8266;LED_BUILTIN=2;FLASHMODE_DIO;ESP8266;__cplusplus=201103L;_VMICRO_INTELLISENSE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="clockV101.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="font\FxLED_32.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="font\ZdyLwFont_20.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="img\humidity.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="img\temperature.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="img\ty\ty.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="img\watch_bottom.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="img\watch_top.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="__vm\.clockV101.vsarduino.h" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
